@@ -1,0 +1,20 @@
+When you want to do something, but for the love of tangerines, you can't do it until something else has occurred; that's whenjs.
+
+barebones example:
+
+  var foo = 2;
+
+  when(function () {
+    return foo == 5
+  }).do(function () {
+    alert('foo now equals 5');
+  });
+  
+  function doStuff() {
+    //doing a bunch of stuff;
+    foo = 5;
+  }
+  
+  doStuff();
+
+
